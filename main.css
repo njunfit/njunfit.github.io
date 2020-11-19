@@ -7,7 +7,11 @@ background-color: #191d26;
     background-image: url(http://gph.is/2gvZPLW);
     width: 100%;
 }
-
+@font-face{
+    font-family:"Gill Sans";
+    src: local("Gill Sans Std"),
+        url("GillSansStd.otf")
+}
 
 .topnav {
   background-color: #bda888;
@@ -22,8 +26,7 @@ background-color: #191d26;
   padding: 30px 50px;
   text-decoration: none;
   font-size: 1.25em;
-font-family: 'Gill Sans';
-
+font-family: "Gill Sans","Gill Sans MT","Calibri",sans-serif; 
     
 }
 
@@ -112,8 +115,7 @@ margin: 20px;
     text-align: center;
 }
 .p1{
-font-family: 'Gill Sans';
-    font-size: 20px;
+font-family: "Gill Sans","Gill Sans MT","Calibri",sans-serif;    font-size: 20px;
 color: #f2f2f2;
 margin: 20px;
     margin-top: 40px;
@@ -130,12 +132,14 @@ margin: 20px;
 
 .tile img {
      border: 4px solid #ff5534;
+    margin-top: 40px;
 }
 
 .tile video{
          border: 4px solid #ff5534;
 
 }
+
 img{
   display: block;
   margin-left: auto;
@@ -144,8 +148,7 @@ img{
     
 }
 .head{
-    font-family: 'Gill Sans';
-    font-size: 100px;
+font-family: "Gill Sans","Gill Sans MT","Calibri",sans-serif;    font-size: 100px;
 color: #f2f2f2;
     font-style: italic;
     margin-top:40px;
@@ -164,8 +167,7 @@ color: #f2f2f2;
     float: right;
 }
 .smallHead{
-    font-family: 'Gill Sans';
-    font-size: 20px;
+font-family: "Gill Sans","Gill Sans MT","Calibri",sans-serif;    font-size: 20px;
 color: #f2f2f2;
     letter-spacing: 2px;
 }
