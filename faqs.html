@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Get fit (NOT) </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+     <script type="application/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="topnav">
+            <div class="logo">
+        <a href="index.html"><img src="images/logo.png"></a></div>
+        <a href="faqs.html">FAQs</a>
+        <a href="explore.html">EXPLORE</a>
+        <a href="aboutus.html">ABOUT US</a>
+        <a href="index.html">HOME</a>
+    </div>
+    <div class="head">FAQs - Gym/Exercise</div>
+    <br>
+    <br>
+   <div class ="containerA">
+    <button class="accordion">
+        <div class="smallHead">
+            Do you sometimes just go to the gym so that you feel like you've gone to the gym, but not actually do anything there?
+        </div>
+    </button>
+
+    <div class="panel">
+        <img src="images/justdoit.gif" style= "width:30%; height:40%; frameBorder=2"> <br>
+<p>We've all been there, haven't we?</p>
+    </div>
+
+    <button class="accordion">
+        <div class="smallHead">
+            Why even do legs? Nobody ever sees them!</div>
+    </button>
+    <div class="panel">
+        <img src="images/forgot-that-it-was-leg-day1.jpg" style="width: 30%">
+        <br>
+       <p>Because you'll surely want to avoid that!</p>
+       
+    </div>
+
+    <button class="accordion">
+        <div class="smallHead">
+            Which food is the most helpful for increasing bicep size?</div>
+    </button>
+    <div class="panel">
+        <p>Eating biceps helps tremendously with biceps growth, albeit not for the person whose biceps you just ate</p>
+    </div>
+    <button class="accordion">
+        <div class="smallHead">
+
+            What does the gym offer that you just can't resist?
+        </div>
+    </button>
+    <div class="panel">
+      <img src="images/gymoffers.jpg" style="width: 30%">
+        <br>
+       <p>Who doesn't like some fun?</p>
+       
+    </div>
+
+    <button class="accordion">
+        <div class="smallHead">
+            How do I wake up at 5 a.m. daily to work out?</div>
+    </button>
+    <div class="panel">
+        <p>Set the alarm like the rest of us.</p>
+    </div>
+    <button class="accordion">
+        <div class="smallHead">
+            Why am I not progressing in the gym if I’m doing everything right at the gym?
+        </div>
+    </button>
+    <div class="panel">
+        <p>Because you are not doing everything right at the gym.</p>
+    </div>
+    <button class="accordion">
+        <div class="smallHead">
+
+            Can I be really fat and still have the outline of abs?
+        </div>
+    </button>
+    <div class="panel">
+        <p>Sure you can. Just grab a magic marker and draw them in.</p>
+    </div>
+
+    <button class="accordion">
+        <div class="smallHead">
+            Why am I fat?
+        </div>
+    </button>
+    <div class="panel">
+        <p>Perhaps you should tell me why you’re fat.</p>
+    </div>
+    <button class="accordion">
+        <div class="smallHead">
+            How do I lose a ton of weight without exercising, dieting, or going to the gym?
+        </div>
+    </button>
+    <div class="panel">
+        <p>You don’t</p>
+    </div>
+    </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+
+</html>
