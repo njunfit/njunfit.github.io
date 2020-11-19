@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Weight Equipments </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+     <script type="application/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#94;</button>
+
+    <div class="topnav">
+            <div class="logo">
+        <a href="index.html"><img src="images/logo.png"></a></div>
+        <a href="contactus.html">CONTACT US</a>
+        <a href="explore.html">EXPLORE</a>
+        <a href="aboutus.html">ABOUT US</a>
+        <a href="index.html">HOME</a>
+    </div>
+    <div class="head"> Weight Equipments</div>
+    <p> At this gym, we offer only the very best sources of inspiration for you. Make the most out of <br>this experience to bulk up, trim down or just listen to your favorite playlist while <br>using our cutting-edge equipments simply the wrong way.Our free weights,<br> shiny machines, and cutting-edge equipment are the gear to get you <i>there.</i> </p>
+    <div class="tile">
+        <img src="images/sleeper.jpg" alt="sleeper">
+        <p>The Sleepers </p>
+        <img src="images/formercircus.jpg" alt="circus">
+        <p>The Former Circus Performers </p>
+        <img src="images/children.jpg" alt="children">
+        <p>Children? </p>
+        <img src="images/dumbbellhoarder.jpg" alt="hoarder">
+        <p>The Dumbbell Hoarders </p>
+        <img src="images/hipthrust.jpg" alt="hipthrust">
+        <p>The Right Hip Thrust </p>
+        <img src="images/trickster.jpg" alt="trickster">
+        <p>The Tricksters </p>
+        
+        <video width="100%" height="500" controls>
+            <source src="images/v1.mp4" type="video/mp4"> </video>
+        <p>In case you're missing the playground slides </p>
+        <video width="100%" height="500" controls>
+            <source src="images/v2.mp4" type="video/mp4"></video>
+          <p>It's a basketball court! </p>
+    </div> 
+    <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    </body>
+</html>
+

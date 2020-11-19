@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Phone & Books </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#94;</button>   
+    <div class="topnav">
+            <div class="logo">
+        <a href="index.html"><img src="images/logo.png"></a></div>
+        <a href="contactus.html">CONTACT US</a>
+        <a href="explore.html">EXPLORE</a>
+        <a href="aboutus.html">ABOUT US</a>
+        <a href="index.html">HOME</a>
+    </div>
+    <div class="head"> Phone and Other Equipments</div>
+    <p> Apart from the machines we provide, you can also bring your own equipment from home that helps you focus and we promise - it will be a no judgement zone!</p>
+    <div class="tile">
+        <img src="images/book.jpg" alt="book">
+        <p>Just one <i>set</i> to go </p>
+        <img src="images/coupleselfie.jpg" alt="coupleselfie">
+        <p>There's always time to show it all off! </p>
+        <img src="images/gaming.jpg" alt="gaming">
+        <p>Life's just a game</p>
+        <img src="images/motivator.jpg" alt="motivator">
+        <p>Sometimes you just have to cheer others</p>
+        <img src="images/icecreamman.jpg" alt="icecream">
+        <p>Not everyone gets motivated the same </p>
+        <img src="images/catspandex.jpg" alt="catspandex">
+        <p>Yup..get your cat costumes too</p>
+        <img src="images/motivation.jpg" alt="motivation">
+        <p>Or food?! </p>
+        <img src="images/laptopwithweights.jpg" alt="laptop">
+        <p>Just make sure you avoid this on leg day </p>
+        <img src="images/phones.jpg" alt="phones">
+        <p>Group sessions </p>
+        <img src="images/selfie.jpg" alt="selfie">
+        <p>Let everyone know where you're at! </p>
+            <img src="images/withababy.jpg" alt="Phones">
+<p>Maybe your baby needs some exercise in too! </p> 
+            <img src="images/fashionpolic.jpg" alt="shoes">
+<p>And don't forget - the right shoes for the right exercise </p>
+            </div>
+
+            <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
+
